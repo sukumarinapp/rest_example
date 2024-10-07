@@ -1,11 +1,6 @@
-Laravel v9.5.2 REST API
------------------------
-php artisan vendor:publish --tag=laravel-assets --ansi --force
-php artisan key:generate --ansi
+#Laravel v9.5.2 REST API
+### composer create-project laravel/laravel rest_example
+### php artisan make:model Book -m
+### php artisan make:controller BookController
 
-1)composer create-project laravel/laravel rest_example
-2)php artisan make:model Book -m
-3)php artisan make:controller BookController
-
-http://127.0.0.1:8000/api/books
 
